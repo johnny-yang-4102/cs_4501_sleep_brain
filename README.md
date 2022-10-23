@@ -15,5 +15,7 @@ This website was built using React and deployed with Netlify
 # Who
 
 Johnny Yang 
+
 Joey Elsisi 
+
 Sam Thapaliya
