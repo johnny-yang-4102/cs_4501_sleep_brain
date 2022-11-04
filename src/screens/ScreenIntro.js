@@ -99,10 +99,10 @@ const ScreenIntro = () => {
                 <Grid item xs={6} >
                     <ImageList sx={{ width: 500, height: 164 }} cols={2} rowHeight={164}>
                         <ImageListItem>
-                            <img src={picGlial} />
+                            <img src={picGlial} alt="glial cells" />
                         </ImageListItem>
                         <ImageListItem>
-                            <img src={picNeuron} />
+                            <img src={picNeuron} alt="neuron structure"/>
                         </ImageListItem>
 
 
