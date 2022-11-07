@@ -2,7 +2,8 @@ import './App.css';
 
 import ScreenSleepGenes from './screens/ScreenSleepGenes';
 import ScreenIntro from './screens/ScreenIntro';
-import ScreenPipeline from './screens/ScreenPipeline';
+import ScreenPipeline1 from './screens/ScreenPipeline1';
+import ScreenPipeline2 from './screens/ScreenPipeline2';
 import { Typography } from '@mui/material';
 
 import {
@@ -35,13 +36,15 @@ function App() {
         <div>
           <Link style={padding} to="/">Home</Link>
           <Link style={padding} to="/sleep_genes">Sleep Genes</Link>
-          <Link style={padding} to="/pipeline">Pipeline</Link>
+          <Link style={padding} to="/pipeline_1">Pipeline Results 1</Link>
+          <Link style={padding} to="/pipeline_2">Pipeline Results 2</Link>
         </div>
 
         <Routes>
           <Route path="/" element={<ScreenIntro />} />
           <Route path="/sleep_genes" element={<ScreenSleepGenes />} />
-          <Route path="/pipeline" element={<ScreenPipeline />} />
+          <Route path="/pipeline_1" element={<ScreenPipeline1 />} />
+          <Route path="/pipeline_2" element={<ScreenPipeline2 />} />
         </Routes>
 
       </Router>
