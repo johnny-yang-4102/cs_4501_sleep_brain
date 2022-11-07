@@ -16,6 +16,10 @@ const ScreenIntro = () => {
     return (
         <Stack spacing={4} direction="column" justifyContent="center" alignItems="center" marginLeft={15} marginRight={15}>
 
+            <Grid item>
+                <Typography variant="h3" > Sleep </Typography>
+            </Grid>
+
             {/* Example section 1 */}
             <Grid item>
                 <Typography variant="h4" > Why we sleep </Typography>
