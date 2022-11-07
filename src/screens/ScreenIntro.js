@@ -34,13 +34,24 @@ const ScreenIntro = () => {
 
             <Grid container direction="row" >
                 <Grid item xs={4}>
+                <Typography variant="h5" >Inactivity Theory</Typography>
+
                 <Typography variant="body1" >equal space equal space equal space equal space equal space equal space equal space equal space equal space  </Typography>
                 </Grid>
                 <Grid item xs={4}>
+                    <Typography variant="h5" >Energy Conservation Theory</Typography>
                 <Typography variant="body1" >equal space equal space equal space equal space equal space equal space equal space equal space equal space  </Typography>
                 </Grid>
                 <Grid item xs={4}>
+                    <Typography variant="h5" >Restoration Theory</Typography>
                 <Typography variant="body1" >equal space equal space equal space equal space equal space equal space equal space equal space equal space  </Typography>
+                </Grid>
+            </Grid>
+            <Grid container direction="row" >
+                <Grid item xs={4}>
+                    <Typography variant="h5" >Brain Plasticity Theory</Typography>
+                    <Typography variant="body1" >equal space equal space equal space equal space equal
+                        space equal space equal space equal space equal space  </Typography>
                 </Grid>
             </Grid>
 
