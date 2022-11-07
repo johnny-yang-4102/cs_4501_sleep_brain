@@ -9,11 +9,10 @@ const ScreenPipeline2 = () => {
     const [iframeHeight, setIframeHeight] = React.useState('100%');
 
     React.useEffect(() => {
-        function setFrameHeight() {
-            setIframeHeight(`${iframeRef.current.contentWindow.document.documentElement.scrollHeight}px`); 
-        }
-        setFrameHeight()
-    }, []);
+
+        setIframeHeight(`${iframeRef.current.contentWindow.document.documentElement.scrollHeight}px`);
+
+    }, [iframeRef]);
 
 
 
@@ -29,7 +28,7 @@ const ScreenPipeline2 = () => {
             width="100%"
             height={iframeHeight}
             src="SRR10139762_2_val_2_fastqc.html"
-            style={{height: iframeHeight }}
+            style={{ height: iframeHeight }}
         ></iframe>
     )
 }
