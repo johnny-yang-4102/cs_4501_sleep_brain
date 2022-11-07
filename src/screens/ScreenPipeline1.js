@@ -8,7 +8,11 @@ const ScreenPipeline1 = () => {
     const [iframeHeight, setIframeHeight] = React.useState('100%');
 
     React.useEffect(() => {
-        setIframeHeight(`${iframeRef.current.contentWindow.document.documentElement.scrollHeight}px`);
+        function setFrameHeight() {
+            setIframeHeight(`${iframeRef.current.contentWindow.document.documentElement.scrollHeight}px`); 
+        }
+        setFrameHeight()
+    
     }, []);
 
 
