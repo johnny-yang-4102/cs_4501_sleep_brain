@@ -48,13 +48,33 @@ const ScreenIntro = () => {
 
             <Grid container direction="row" >
                 <Grid item xs={4}>
-                    <Typography variant="body1" >equal space equal space equal space equal space equal space equal space equal space equal space equal space  </Typography>
+                    <Typography variant="h5" > Inactivity Theory </Typography>
+                    <Typography variant="body1" >The idea that animals that remained inactive at night were less
+                        likely to get injured, leading to better survival odds.
+</Typography>
                 </Grid>
                 <Grid item xs={4}>
-                    <Typography variant="body1" >equal space equal space equal space equal space equal space equal space equal space equal space equal space  </Typography>
+                    <Typography variant="h5" > Energy Conservation Theory </Typography>
+                    <Typography variant="body1" > Our metabolism decreases by up to 10% during sleep.
+                        This theory suggests that since searching for food is less efficient at night, we sleep instead.
+ </Typography>
                 </Grid>
                 <Grid item xs={4}>
-                    <Typography variant="body1" >equal space equal space equal space equal space equal space equal space equal space equal space equal space  </Typography>
+                    <Typography variant="h5" > Restoration Theory </Typography>
+                    <Typography variant="body1" > Many restorative functions in the body kick in primarily during sleep,
+                        like muscle growth, tissue repair protein synthesis and hormone release. The brain also builds
+                        up adenosine, a by-product of cell activity, during the day. This is cleared away during sleep.
+ </Typography>
+                </Grid>
+                <Grid item xs={4}>
+                    <Typography variant="h5" > Brain Plasticity Theory</Typography>
+                    <Typography variant="body1" > Recent research findings suggest that the brain is actually very
+                        active during sleep. During sleep, the brain processes the day's information and filters
+                        what is important into long term memory. Metabolic waste in the brain is also cleaned out
+                        at a greater rate than during the day.
+                        Our project will hone in on this theory.
+                        We will be looking specifically at studies on what goes on inside the brains of mice during sleep.
+                    </Typography>
                 </Grid>
             </Grid>
 
