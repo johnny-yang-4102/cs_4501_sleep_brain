@@ -6,7 +6,7 @@ import React from "react";
 const ScreenPipeline2 = () => {
 
     const iframeRef = React.createRef();
-    const [iframeHeight, setIframeHeight] = React.useState('100%');
+    const [iframeHeight, setIframeHeight] = React.useState('');
 
     React.useEffect(() => {
 

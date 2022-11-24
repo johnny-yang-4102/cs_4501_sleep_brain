@@ -36,15 +36,13 @@ function App() {
         <div>
           <Link style={padding} to="/">Home</Link>
           <Link style={padding} to="/sleep_genes">Sleep Genes</Link>
-          <Link style={padding} to="/pipeline_1">Pipeline Results 1</Link>
-          <Link style={padding} to="/pipeline_2">Pipeline Results 2</Link>
+          <a style={padding}  href="multiqc_report.html">MultiQC Report</a>
+          <a style={padding}  href="SRR10139762_2_val_2_fastqc.html">FastQC Report</a>
         </div>
 
         <Routes>
           <Route path="/" element={<ScreenIntro />} />
           <Route path="/sleep_genes" element={<ScreenSleepGenes />} />
-          <Route path="/pipeline_1" element={<ScreenPipeline1 />} />
-          <Route path="/pipeline_2" element={<ScreenPipeline2 />} />
         </Routes>
 
       </Router>
