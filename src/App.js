@@ -2,8 +2,6 @@ import './App.css';
 
 import ScreenSleepGenes from './screens/ScreenSleepGenes';
 import ScreenIntro from './screens/ScreenIntro';
-import ScreenPipeline1 from './screens/ScreenPipeline1';
-import ScreenPipeline2 from './screens/ScreenPipeline2';
 import { Typography } from '@mui/material';
 
 import {
