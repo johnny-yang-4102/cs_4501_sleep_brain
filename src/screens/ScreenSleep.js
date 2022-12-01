@@ -3,7 +3,7 @@ import { Typography } from "@mui/material";
 import React from "react";
 
 
-const ScreenSleepGenes = () => {
+const ScreenSleep = () => {
 
     return (
         <div>
@@ -12,4 +12,4 @@ const ScreenSleepGenes = () => {
     )
 }
 
-export default ScreenSleepGenes;
+export default ScreenSleep;
