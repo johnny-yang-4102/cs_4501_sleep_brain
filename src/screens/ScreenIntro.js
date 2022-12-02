@@ -1,12 +1,7 @@
 import { Stack } from "@mui/system";
-import { Grid, Typography, ImageList, ImageListItem } from "@mui/material";
-
-import Image from "mui-image";
+import { Grid, Typography } from "@mui/material";
 
 //Need to import all of your pictures before using
-import picBrain from '../images/brain.png'
-import picGlial from '../images/glial.webp'
-import picNeuron from '../images/neuron-structure.jpeg'
 
 
 const ScreenIntro = () => {

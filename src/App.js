@@ -27,11 +27,18 @@ function App() {
         
         component="div"
         color="black"
+        
+        style={{
+          
+          backgroundColor: 'wheat'
+                   
+      
+      }}
       >
-        Connection between Sleep and Brain
-      </Typography>
+        Connections Between Sleep And Brain
+      </Typography >
 
-      <Divider spacing={3}/>
+      <Divider />
 
       <Router>
 

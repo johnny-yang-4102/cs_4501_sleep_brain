@@ -1,5 +1,5 @@
 import { Stack } from "@mui/system";
-import { Divider, Grid, Typography, ImageList, ImageListItem } from "@mui/material";
+import { Grid, Typography, ImageList, ImageListItem } from "@mui/material";
 
 import Image from "mui-image";
 
@@ -64,9 +64,57 @@ const ScreenBrain = () => {
                     </ImageList>
                 </Grid>
 
-                <Grid item >
-                    <Typography variant="body1" >Brains contain two broad classes of cells: neurons, information transmitters, across connections called synapses. There are also glial cells, non-neuronal cells which provide physical and metabolic support to neurons.</Typography>
+                <Grid item xs={12}>
+                    <Typography variant="h5" >Cell Composition</Typography>
                 </Grid>
+
+                <Grid item xs={12}>
+                    <Typography variant="body1" >Brains contain two broad classes of cells: neurons and synapses. Neurons act as electrical signal transmitters within the brain. Synapses connect neurons together to actually pass these electrical signals. There are also glial cells, non-neuronal cells which provide physical and metabolic support to neurons. </Typography>
+                </Grid>
+
+
+                <Grid item xs={12}>
+                    <Typography variant="h5" >Basal Ganglia</Typography>
+                </Grid>
+
+                <Grid item xs={12}>
+                    <Typography variant="body1" >These are the interconnected brain areas and have roles in movement control and motivation. Damage to the basal ganglia leads to motor impairments</Typography>
+                </Grid>
+
+                <Grid item xs={12}>
+                    <Typography variant="h5" >Thalamus</Typography>
+                </Grid>
+
+                <Grid item xs={12}>
+                    <Typography variant="body1" >This acts as a middle layer between the cortex and body inputs. It modulates sensory and motor awareness depending on attention and arousal states.</Typography>
+                </Grid>
+
+                <Grid item xs={12}>
+                    <Typography variant="h5" >Hypothalamus</Typography>
+                </Grid>
+
+                <Grid item xs={12}>
+                    <Typography variant="body1" >The structure underneath the thalamus. It regulates homeostasis and ensures key functions such as caloric intake, energy expenditure, and body temperature, and sleep are kept at in appropriate levels</Typography>
+                </Grid>
+
+
+                <Grid item xs={12}>
+                    <Typography variant="h5" >Cerebellum </Typography>
+                </Grid>
+
+                <Grid item xs={12}>
+                    <Typography variant="body1" >Latin for “little brain”. The cerebellum controls balance ,coordination, and learning new motor skills</Typography>
+                </Grid>
+
+                <Grid item xs={12}>
+                    <Typography variant="h5" >Brain Stem </Typography>
+                </Grid>
+
+                <Grid item xs={12}>
+                    <Typography variant="body1" >Helps to realty signals between brain and spinal cord. Coordinates the motor control signals sent from the brain to the body. Also controls several important functions related to homeostasis such as breathing, arousal, and digestion.
+</Typography>
+                </Grid>
+
             </Grid>
 
 
