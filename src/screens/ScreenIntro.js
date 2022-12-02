@@ -7,6 +7,7 @@ import Image from "mui-image";
 import picBrain from '../images/brain.png'
 import picGlial from '../images/glial.webp'
 import picNeuron from '../images/neuron-structure.jpeg'
+import picIEG from '../images/IEGmapping.jpeg'
 
 
 const ScreenIntro = () => {
@@ -66,7 +67,7 @@ const ScreenIntro = () => {
                         up adenosine, a by-product of cell activity, during the day. This is cleared away during sleep.
  </Typography>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12}>
                     <Typography variant="h5" > Brain Plasticity Theory</Typography>
                     <Typography variant="body1" > Recent research findings suggest that the brain is actually very
                         active during sleep. During sleep, the brain processes the day's information and filters
@@ -139,10 +140,7 @@ const ScreenIntro = () => {
                         <Typography variant="body1" >Brains contain two broad classes of cells: neurons, information transmitters, across connections called synapses. There are also glial cells, non-neuronal cells which provide physical and metabolic support to neurons.
                         </Typography>
                     </Grid>
-
-
                 </Grid>
-
             </Grid>
 
             <Grid container direction="row" >
@@ -168,7 +166,12 @@ const ScreenIntro = () => {
 
             </Grid>
 
-
+            <Grid item>
+                <Typography variant="h3" > The Brain during Sleep</Typography>
+            </Grid>
+            <Grid item xs={6} >
+                    <Image src={picIEG} height="100%" width="50%" />
+                </Grid>
 
 
         </Stack>
