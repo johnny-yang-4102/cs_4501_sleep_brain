@@ -2,7 +2,7 @@ import './App.css';
 
 import ScreenSleep from './screens/ScreenSleep';
 import ScreenIntro from './screens/ScreenIntro';
-import { Typography } from '@mui/material';
+import { Typography, Divider } from '@mui/material';
 
 import {
   BrowserRouter as Router,
@@ -23,13 +23,15 @@ function App() {
     <div>
 
       <Typography
-        variant="h2"
+        variant="h3"
         
         component="div"
         color="black"
       >
-        CS 4501 Project
+        Connection between Sleep and Brain
       </Typography>
+
+      <Divider spacing={3}/>
 
       <Router>
 
