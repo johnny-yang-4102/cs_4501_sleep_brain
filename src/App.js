@@ -1,15 +1,15 @@
 import './App.css';
 
-import ScreenSleepGenes from './screens/ScreenSleepGenes';
+import ScreenSleep from './screens/ScreenSleep';
 import ScreenIntro from './screens/ScreenIntro';
-import ScreenPipeline1 from './screens/ScreenPipeline1';
-import ScreenPipeline2 from './screens/ScreenPipeline2';
 import { Typography } from '@mui/material';
 
 import {
   BrowserRouter as Router,
   Routes, Route, Link
 } from "react-router-dom"
+import ScreenBrain from './screens/ScreenBrain';
+import ScreenSleepBrainEffects from './screens/ScreenSleepBrainEffects';
 
 
 function App() {
@@ -35,16 +35,18 @@ function App() {
 
         <div>
           <Link style={padding} to="/">Home</Link>
-          <Link style={padding} to="/sleep_genes">Sleep Genes</Link>
-          <Link style={padding} to="/pipeline_1">Pipeline Results 1</Link>
-          <Link style={padding} to="/pipeline_2">Pipeline Results 2</Link>
+          <Link style={padding} to="/sleep">Sleep</Link>
+          <Link style={padding} to="/brain">Brain</Link>
+          <Link style={padding} to="/sleep_brain_effects">Effects of Sleep on Brain</Link>
+          <a style={padding}  href="multiqc_report.html">MultiQC Report</a>
+          <a style={padding}  href="SRR10139762_2_val_2_fastqc.html">FastQC Report</a>
         </div>
 
         <Routes>
           <Route path="/" element={<ScreenIntro />} />
-          <Route path="/sleep_genes" element={<ScreenSleepGenes />} />
-          <Route path="/pipeline_1" element={<ScreenPipeline1 />} />
-          <Route path="/pipeline_2" element={<ScreenPipeline2 />} />
+          <Route path="/brain" element={<ScreenBrain />} />
+          <Route path="/sleep" element={<ScreenSleep />} />
+          <Route path="/sleep_brain_effects" element={<ScreenSleepBrainEffects />} />
         </Routes>
 
       </Router>
