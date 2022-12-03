@@ -1,7 +1,7 @@
 import './App.css';
 
 import ScreenSleep from './screens/ScreenSleep';
-import ScreenIntro from './screens/ScreenIntro';
+import ScreenHome from './screens/ScreenHome';
 import { Typography, Divider } from '@mui/material';
 
 import {
@@ -10,6 +10,8 @@ import {
 } from "react-router-dom"
 import ScreenBrain from './screens/ScreenBrain';
 import ScreenSleepBrainEffects from './screens/ScreenSleepBrainEffects';
+
+import NavBar from './components/NavBar';
 
 
 function App() {
@@ -21,7 +23,6 @@ function App() {
   return (
 
     <div>
-
       <Typography
         variant="h3"
         
@@ -52,7 +53,7 @@ function App() {
         </div>
 
         <Routes>
-          <Route path="/" element={<ScreenIntro />} />
+          <Route path="/" element={<ScreenHome />} />
           <Route path="/brain" element={<ScreenBrain />} />
           <Route path="/sleep" element={<ScreenSleep />} />
           <Route path="/sleep_brain_effects" element={<ScreenSleepBrainEffects />} />
