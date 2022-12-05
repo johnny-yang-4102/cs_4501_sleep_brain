@@ -10,6 +10,7 @@ import {
 } from "react-router-dom"
 import ScreenBrain from './screens/ScreenBrain';
 import ScreenSleepBrainEffects from './screens/ScreenSleepBrainEffects';
+import References from './screens/References';
 
 import NavBar from './components/NavBar';
 
@@ -50,6 +51,7 @@ function App() {
           <Link style={padding} to="/sleep_brain_effects">Effects of Sleep on Brain</Link>
           <a style={padding}  href="multiqc_report.html">MultiQC Report</a>
           <a style={padding}  href="SRR10139762_2_val_2_fastqc.html">FastQC Report</a>
+          <Link style={padding} to="/References">References</Link>
         </div>
 
         <Routes>
@@ -57,6 +59,7 @@ function App() {
           <Route path="/brain" element={<ScreenBrain />} />
           <Route path="/sleep" element={<ScreenSleep />} />
           <Route path="/sleep_brain_effects" element={<ScreenSleepBrainEffects />} />
+            <Route path="/References" element={<References />} />
         </Routes>
 
       </Router>

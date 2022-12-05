@@ -19,6 +19,7 @@ import ScreenBrain from '../screens/ScreenBrain';
 import ScreenSleepBrainEffects from '../screens/ScreenSleepBrainEffects';
 import ScreenSleep from '../screens/ScreenSleep';
 import ScreenHome from '../screens/ScreenHome';
+import Refernces from '../screens/References';
 import { Button } from '@mui/material';
 
 const pages = ['About', 'Projects', 'Contact'];

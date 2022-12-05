@@ -8,6 +8,7 @@ import {Typography, Grid, Popover} from "@mui/material";
 import React from "react";
 import Image from "mui-image";
 import picIEG from '../images/IEGmapping.jpeg'
+import {blue} from "@mui/material/colors";
 
 const ScreenSleepBrainEffects = () => {
     const padding = {
@@ -16,6 +17,7 @@ const ScreenSleepBrainEffects = () => {
     return (
         <Stack spacing={4} direction={"column"} justifyContent={"center"} alignItems={"center"} marginLeft={30}
                marginRight={30}>
+            <iframe width={"100%"} height={"200%"} allowFullScreen={"true"} src="https://3dmol.csb.pitt.edu/viewer.html?pdb=1AAP&select=chain:A&style=line&select=chain:B&style=line&select=resi:19,23,26;chain:B&style=cartoon;stick&select=resi:19,23,26;chain:B&labelres=backgroundOpacity:0.8;fontSize:14&select=all&style=cartoon:style~rectangle,color~spectrum"/>
             {/* ............................... */}
             {/* 1st section */}
             {/* ............................... */}
@@ -61,7 +63,7 @@ const ScreenSleepBrainEffects = () => {
                                 asleep,
                                 not when they were awake. It took 2 years of training the mice to fall asleep on the
                                 photon
-                                microscope needed to view the dye’s.
+                                microscope needed to view the two dye’s.
                             </Typography>
                         </AccordionDetails>
                     </Accordion>
@@ -93,7 +95,7 @@ const ScreenSleepBrainEffects = () => {
                     <Image src={picIEG} height={"100%"} width={"100%"} justifyContent={"center"} align={"center"}/>
                 </Grid>
                 <Typography style={padding} variant={"body1"}>
-                    The above image is a result of a technique called In situ hybridization. 222 genes were selected
+                    The above image is a result of a technique called <em> In situ hybridization </em>. 222 genes were selected
                     from the microarray data and fixed to a glass slide. They were then exposed to a small piece of
                     single stranded DNA marked with a fluorescent dye. The fluorescent DNA binds to its target, and this
                     can be seen under a microscope. In the above case, we wanted to mark the Arc gene to see where it
