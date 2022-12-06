@@ -20,6 +20,46 @@ const References = () => {
                                 href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
                                 color={"black"}>How Sleep Deprivation Affects Our Genes
                 </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                <ListItem><Link className={"listLink"}
+                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
+                                color={"black"}>
+                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                <ListItem><Link className={"listLink"}
+                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
+                                color={"black"}>How Sleep Deprivation Affects Our Genes
+                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                <ListItem><Link className={"listLink"}
+                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
+                                color={"black"}>How Sleep Deprivation Affects Our Genes
+                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                <ListItem><Link className={"listLink"}
+                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
+                                color={"black"}>How Sleep Deprivation Affects Our Genes
+                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                <ListItem><Link className={"listLink"}
+                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
+                                color={"black"}>How Sleep Deprivation Affects Our Genes
+                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                <ListItem><Link className={"listLink"}
+                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
+                                color={"black"}>How Sleep Deprivation Affects Our Genes
+                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                <ListItem><Link className={"listLink"}
+                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
+                                color={"black"}>How Sleep Deprivation Affects Our Genes
+                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                <ListItem><Link className={"listLink"}
+                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
+                                color={"black"}>How Sleep Deprivation Affects Our Genes
+                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                <ListItem><Link className={"listLink"}
+                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
+                                color={"black"}>How Sleep Deprivation Affects Our Genes
+                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                <ListItem><Link className={"listLink"}
+                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
+                                color={"black"}>How Sleep Deprivation Affects Our Genes
+                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
             </List>
         </Stack>
     );

@@ -17,8 +17,9 @@ code {
     color: black;
     background-color: wheat;
     border-radius: 25px;
-    padding: 1.5%;
+    padding: 1%;
     width:border-box;
+    margin: 1px;
 }
 
 .listDesc {
