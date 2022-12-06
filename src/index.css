@@ -25,3 +25,18 @@ code {
 .listDesc {
     padding: 1.5%;
 }
+
+a {
+    padding: 8;
+    color: 'inherit';
+    text-decoration: 'none';
+}
+
+a:visited {
+    color: 'inherit';
+}
+
+
+a:active {
+    font-weight: bold;
+}
