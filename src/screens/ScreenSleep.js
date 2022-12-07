@@ -2,6 +2,10 @@
 import {Grid, Typography} from "@mui/material";
 import React from "react";
 import {Stack} from "@mui/system";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Accordion from "@mui/material/Accordion";
 
 
 const ScreenSleep = () => {
@@ -19,17 +23,27 @@ const ScreenSleep = () => {
             </Grid>
 
             <Grid container direction="row" >
-                <Grid item xs={8}>
+                <Grid item xs={12}>
                     <Typography variant="h5"> Sleep is dangerous </Typography>
                     <Typography variant="body1" > We spend a third of our life asleep. This is time that could be spent
                         reproducing, gathering food or gaining resources. Instead, we lie dormant, vulnerable to predators.
-                        <br />
                         Every animal sleeps, and so do some plants. So what is its purpose?
                     </Typography>
                 </Grid>
-                <Grid item xs={4}>
                     <Typography variant="h5">  &nbsp;  </Typography>
-                    <Typography variant="body1" >You’d expect larger animals to need more sleep, but the inverse is generally true. The owl monkey sleeps 17 hours a day, while Elephants sleep only 2 hours a day.</Typography>
+                <Grid item xs={12}>
+                <Accordion>
+                        <AccordionSummary
+                            expandIcon={<ExpandMoreIcon/>}
+                            aria-controls="panel1a-content"
+                            id="panel1a-header"
+                        >
+                            <Typography>Fun Fact</Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            <Typography variant="body1" >You’d expect larger animals to need more sleep, but the inverse is generally true. The owl monkey sleeps 17 hours a day, while Elephants sleep only 2 hours a day.</Typography>
+                        </AccordionDetails>
+                    </Accordion>
                 </Grid>
             </Grid>
 
