@@ -96,7 +96,7 @@ const ScreenSleepBrainEffects = () => {
                     <Typography style={padding} variant={"body1"}>
                     {/*    A systematic <a id={"tiptext"} onMouseEnter={() => setIsShown(true)}*/}
                     {/*onMouseLeave={() => setIsShown(false)}> IEG mapping</a>{isShown && (*/}
-                        <em> <a href={"https://en.wikipedia.org/wiki/Immediate_early_gene"} target={"_blank"}>
+                        <em> <a href={"https://en.wikipedia.org/wiki/Immediate_early_gene"} rel="noreferrer" target={"_blank"}>
                             IEG mapping</a> </em> was used to detect neuronal activation using laser microdissection and
                         cDNA microarrays of the mouse brains. Sleep deprivation was found to both induce and suppress
                         IEG expression in subregions of the brain. More specifically, these were the genes found to
@@ -109,12 +109,12 @@ const ScreenSleepBrainEffects = () => {
                     <Image src={picIEG} height={"100%"} width={"100%"} justifyContent={"center"} align={"center"}/>
                     </Grid>
                         <Grid item xs={12}>
-                            <Typography variant="body1" align="center"> <a href={"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2981377/"} target={"_blank"}> Image Source</a> </Typography>
+                            <Typography variant="body1" align="center"> <a href={"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2981377/"} rel="noreferrer" target={"_blank"}> Image Source</a> </Typography>
 
                         </Grid>
                 </Grid>
                 <Typography style={padding} variant={"body1"}>
-                    The above image is a result of a technique called <em> <a href={"https://www.genome.gov/genetics-glossary/in-situ-hybridization"} target={"_blank"}>In situ hybridization</a>  </em>. 222 genes were
+                    The above image is a result of a technique called <em> <a href={"https://www.genome.gov/genetics-glossary/in-situ-hybridization"} rel="noreferrer" target={"_blank"}>In situ hybridization</a>  </em>. 222 genes were
                     selected from the microarray data and fixed to a glass slide. They were then exposed to a small piece of
                     single stranded DNA marked with a fluorescent dye. The fluorescent DNA binds to its target, and this
                     can be seen under a microscope. In the above case, we wanted to mark the Arc gene to see where it

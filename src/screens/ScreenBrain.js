@@ -115,7 +115,7 @@ const ScreenBrain = () => {
 
                     <Typography variant="h5" style={padding}>Deep Visualization </Typography>
 
-                    <Typography variant="body1" style={padding}>To view a 3d model of the brain, visit the following <a target="_blank" href="https://www.brainfacts.org/3d-brain#intro=true">link</a> from brainfacts</Typography>
+                    <Typography variant="body1" style={padding}>To view a 3d model of the brain, visit the following <a rel="noreferrer" target="_blank" href="https://www.brainfacts.org/3d-brain#intro=true">link</a> from brainfacts</Typography>
                 </Grid>
 
                 <Grid container direction="row" xs={6} >
