@@ -5,7 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import {Typography, Grid} from "@mui/material";
-import React, {useState} from "react";
+import React from "react";
 import Image from "mui-image";
 import picIEG from '../images/IEGmapping.jpeg'
 
@@ -51,7 +51,7 @@ const ScreenSleepBrainEffects = () => {
                             aria-controls="panel1a-content"
                             id="panel1a-header"
                         >
-                            <Typography>How did researches make this discovery?</Typography>
+                            <Typography>How did researchers make this discovery?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <Typography variant={"body1"}>

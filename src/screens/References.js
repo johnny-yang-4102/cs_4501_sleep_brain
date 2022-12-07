@@ -9,9 +9,6 @@ import React from "react";
 
 
 const References = () => {
-    const padding = {
-        padding: 10
-    }
 
     return (
         <Stack spacing={4} direction={"column"} justifyContent={"center"} alignItems={"stretch"} marginLeft={30}
@@ -151,8 +148,6 @@ const References = () => {
                     color={"black"}>
                     Picture reference 
                 </Link><span className={"listDesc"}> - Brain section (chart of animal brains)  </span></ListItem>
-
-
 
             </List>
         </Stack>

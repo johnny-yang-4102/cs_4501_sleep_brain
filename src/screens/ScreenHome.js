@@ -17,7 +17,7 @@ const ScreenIntro = () => {
             <Grid container direction="row" sx={{justifyContent: 'space-between'}}>
 
                 {/* TEXT SECTION regarding introduction, tech, contact  */}
-                <Grid container direction="column" alignItems="flex-start" spacing={1} xs={8}>
+                <Grid container direction="column" alignItems="flex-start" spacing={1} xs={6}>
 
                     <Grid item>
                         <Typography variant="h4" align="center"> Introduction</Typography>
@@ -54,8 +54,9 @@ const ScreenIntro = () => {
                     </Grid>
 
                     <Grid item>
-                        <Typography variant="body1">(INSERT TECHNOLOGIES SAM) were used for the data-analysis on mice
-                            brain genes</Typography>
+                        <Typography variant="body1">FASTQC, MULTIQC, Trim Galore (Trimming Software), STAR (Aligner Software), RSEM (Gene Expression Count Software, R, DESeq2 (Gene Expression Analysis Software in R) were used for the data-analysis on mice
+                            brain genes affected during sleep. The data from the study was retrieved from this <a target="_blank" href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE137665
+">GEO Database</a></Typography>
                     </Grid>
 
 
@@ -78,8 +79,8 @@ const ScreenIntro = () => {
 
 
                 {/* PICTURE SECTION  */}
-                <Grid container direction="row" justifyContent="center" alignItems="center" spacing={1} xs={4}>
-                    <Image src={picBrain} height="100%" width="100%"/>
+                <Grid container direction="row" justifyContent="center" alignItems="center" spacing={1} xs={5}>
+                    <Image src={picBrain} height="100%" width="100%" fit="fill"/>
                 </Grid>
             </Grid>
 

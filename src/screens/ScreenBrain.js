@@ -12,7 +12,6 @@ import picGlial from '../images/glial.webp'
 import picNeuron from '../images/neuron-structure.jpeg'
 
 import picDifferentProcessing from '../images/brain-screen-different-processing-systems.jpeg'
-import picCrocodileHumanCompare from '../images/brain-screen-croc-human-brains.png'
 import picElephantHumanCompare from '../images/brain-screen-elephant-human-brain-comparison.jpeg'
 import picHumanBrain from '../images/brain-screen-human-brain.webp'
 
