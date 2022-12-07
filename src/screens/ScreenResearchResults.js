@@ -35,7 +35,7 @@ const ScreenResearchResults = () => {
                     </Grid>
 
                     <Grid item>
-                        <a style={padding} target="_blank" href="SRR10139762_2_val_2_fastqc.html">FastQC Report</a>
+                        <a style={padding} rel="noreferrer" target="_blank" href="SRR10139762_2_val_2_fastqc.html">FastQC Report</a>
                     </Grid>
 
                     <Grid item>
@@ -47,11 +47,11 @@ const ScreenResearchResults = () => {
                     </Grid>
 
                     <Grid item>
-                        <a style={padding} target="_blank" href="multiqc_report.html">MultiQC Report</a>
+                        <a style={padding} rel="noreferrer" target="_blank" href="multiqc_report.html">MultiQC Report</a>
                     </Grid>
 
                     <Grid item>
-                        <a style={padding} target="_blank" href="https://drive.google.com/drive/folders/1PJowrzNyAvb2WSENZRIEexMwTxAdNd-r?usp=sharing">Slurm Scripts (Google drive link)</a>
+                        <a style={padding} rel="noreferrer" target="_blank" href="https://drive.google.com/drive/folders/1PJowrzNyAvb2WSENZRIEexMwTxAdNd-r?usp=sharing">Slurm Scripts (Google drive link)</a>
                     </Grid>
 
                     <Grid item>
@@ -63,7 +63,7 @@ const ScreenResearchResults = () => {
                     </Grid>
 
                     <Grid item>
-                        <a style={padding} target="_blank" href="CB.html">PCA Analysis Report</a>
+                        <a style={padding} rel="noreferrer" target="_blank" href="CB.html">PCA Analysis Report</a>
                     </Grid>
 
                     <Grid item>

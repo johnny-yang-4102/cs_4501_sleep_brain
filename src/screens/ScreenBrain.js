@@ -1,5 +1,5 @@
 import { Stack } from "@mui/system";
-import { Grid, Typography, ImageList, ImageListItem, Accordion } from "@mui/material";
+import { Grid, Typography, Accordion } from "@mui/material";
 
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
