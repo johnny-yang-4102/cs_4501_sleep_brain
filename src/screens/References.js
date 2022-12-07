@@ -110,6 +110,12 @@ const References = () => {
                     Brain evolution
                 </Link><span className={"listDesc"}> - Different nervous systems and brain structures  </span></ListItem>
 
+                <ListItem><Link className={"listLink"}
+                    href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5452017/" underline="hover"
+                    color={"black"}>
+                    Brain metabolism in health, aging, and neurodegeneration
+                </Link><span className={"listDesc"}> - Research findings on variables affecting brain function  </span></ListItem>
+
 
 
 

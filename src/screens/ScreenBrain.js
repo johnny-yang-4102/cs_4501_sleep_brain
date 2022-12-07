@@ -188,9 +188,23 @@ const ScreenBrain = () => {
                 </Grid>
 
 
-
-
+                <Grid item xs={12}>
+                    <Accordion>
+                        <AccordionSummary
+                            expandIcon={<ExpandMoreIcon/>}
+                            aria-controls="panel1a-content"
+                            id="panel1a-header"
+                        >
+                            <Typography>Fun Fact</Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            <Typography variant="body1">Want to increase brain prowess? The formation of new synpases and new neurons arise from "bioenergetic challenges". That is, forms of environmental energetic stressors most notably in the form of food deprivation and physical exertion can improve brain function. Practically, intermittent fasting and regular exercise can achieve this.  </Typography>
+                        </AccordionDetails>
+                    </Accordion>
+                </Grid>
             </Grid>
+
+            
 
 
 
