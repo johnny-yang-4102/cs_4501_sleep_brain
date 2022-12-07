@@ -109,6 +109,10 @@ const ScreenBrain = () => {
                     <Typography variant="h5" style={padding}>Brain Stem </Typography>
 
                     <Typography variant="body1" style={padding}>Helps to realty signals between brain and spinal cord. Coordinates the motor control signals sent from the brain to the body. Also controls several important functions related to homeostasis such as breathing, arousal, and digestion.</Typography>
+
+                    <Typography variant="h5" style={padding}>Deep Visualization </Typography>
+
+                    <Typography variant="body1" style={padding}>To view a 3d model of the brain, visit the following <a target="_blank" href="https://www.brainfacts.org/3d-brain#intro=true">link</a> from brainfacts</Typography>
                 </Grid>
 
                 <Grid container direction="row" xs={6} >

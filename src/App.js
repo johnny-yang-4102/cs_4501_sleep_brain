@@ -2,7 +2,7 @@ import './App.css';
 
 import ScreenSleep from './screens/ScreenSleep';
 import ScreenHome from './screens/ScreenHome';
-import { Typography, Grid } from '@mui/material';
+import { Typography, Grid, BottomNavigation } from '@mui/material';
 
 
 import {
@@ -34,11 +34,28 @@ function App() {
     marginBottom: '25px',
   }
 
-  return (
+  const footer = {
+    position: "absolute",
+    bottom: "0px",
+    width: "100%",
+    backgroundColor: "wheat",
+    color: "black",
+    textAlign: "center",
+    marginBottom: "-50px"
+}
 
-    <div>
+return (
 
-      {/* <Typography
+  <div
+    style={{
+      minHeight: "100vh",
+      height: "100%",
+      position: "relative",
+  
+  }}
+  >
+
+    {/* <Typography
             variant="h3"
 
             component="div"
@@ -54,46 +71,53 @@ function App() {
             Connections Between Sleep And Brain
           </Typography > */}
 
-      <Router>
+    <Router>
 
-        <div
-          style={navbar}
+      <div
+        style={navbar}
+      >
+
+
+        <Typography
+          display="inline"
+          variant="h3"
+
+          component="div"
+          color="black"
         >
+          Sleep And The Brain
+        </Typography >
 
-
-          <Typography
-            display="inline"
-            variant="h3"
-
-            component="div"
-            color="black"
-          >
-            Sleep And The Brain
-          </Typography >
-
-          <div>
-            <Link style={link} to="/">Home</Link>
-            <Link style={link} to="/sleep">Sleep</Link>
-            <Link style={link} to="/brain">Brain</Link>
-            <Link style={link} to="/sleep_brain_effects">Effects of Sleep on Brain</Link>
-            <Link style={link} to="/research_results">Research Results</Link>
-            <Link style={link} to="/References">References</Link>
-          </div>
+        <div>
+          <Link style={link} to="/">Home</Link>
+          <Link style={link} to="/sleep">Sleep</Link>
+          <Link style={link} to="/brain">Brain</Link>
+          <Link style={link} to="/sleep_brain_effects">Effects of Sleep on Brain</Link>
+          <Link style={link} to="/research_results">Research Results</Link>
+          <Link style={link} to="/References">References</Link>
         </div>
+      </div>
 
-        <Routes>
-          <Route path="/" element={<ScreenHome />} />
-          <Route path="/brain" element={<ScreenBrain />} />
-          <Route path="/sleep" element={<ScreenSleep />} />
-          <Route path="/sleep_brain_effects" element={<ScreenSleepBrainEffects />} />
-          <Route path="/research_results" element={<ScreenResearchResults />} />
-          <Route path="/References" element={<References />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<ScreenHome />} />
+        <Route path="/brain" element={<ScreenBrain />} />
+        <Route path="/sleep" element={<ScreenSleep />} />
+        <Route path="/sleep_brain_effects" element={<ScreenSleepBrainEffects />} />
+        <Route path="/research_results" element={<ScreenResearchResults />} />
+        <Route path="/References" element={<References />} />
+      </Routes>
 
-      </Router>
+    </Router>
+    
+    <div style={{paddingBottom: "100px"}}>
+
     </div>
+    <footer style={footer}>
+          <p>CS 4501 Computing Biology @ UVA 2022</p>
+    </footer>
+  </div>
 
-  )
+)
 }
 
 export default App;
