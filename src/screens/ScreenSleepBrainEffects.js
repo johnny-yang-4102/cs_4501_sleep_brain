@@ -33,7 +33,7 @@ const ScreenSleepBrainEffects = () => {
                         engine
                         that takes in large amounts of energy and produces waste as a byproduct. No, this waste isn’t
                         like
-                        the exhaust of a car, but instead in the form of clumps of proteins like amyloid beta. Among
+                        the exhaust of a car, but instead in the form of clumps of peptides like Amyloid Beta. Among
                         brain
                         cells, neurons expend 70–80% of the total energy, with the remaining portion being utilized by
                         glial
@@ -45,8 +45,7 @@ const ScreenSleepBrainEffects = () => {
                         transferring lymph, this brains network, now known as that glymphatic system, uses cerebrospinal
                         fluid (CSF). It’s glial cells that control the flow of CSF. Because fluid transport across cell
                         membranes takes a significant amount of energy, the researchers theorized that when the brain
-                        wasn’t
-                        processing sensory information, it would increase activity in the glymphatic network.
+                        wasn’t processing sensory information, it would increase activity in the glymphatic network.
                     </Typography>
                     <Accordion>
                         <AccordionSummary
@@ -70,8 +69,13 @@ const ScreenSleepBrainEffects = () => {
                         </AccordionDetails>
                     </Accordion>
                 </Grid>
-                <a href={"https://3dmol.csb.pitt.edu/viewer.html?pdb=1AAP&select=chain:A&style=line&select=chain:B&style=line&select=resi:19,23,26;chain:B&style=cartoon;stick&select=resi:19,23,26;chain:B&labelres=backgroundOpacity:0.8;fontSize:14&select=all&style=cartoon:style~rectangle,color~spectrum"}>
-                   1AAP </a>
+                <Grid item xs={12}>
+                                        <Typography style={padding} variant="body1">
+
+                    <a href={"https://3dmol.csb.pitt.edu/viewer.html?pdb=1AAP&select=chain:A&style=line&select=chain:B&style=line&select=resi:19,23,26;chain:B&style=cartoon;stick&select=resi:19,23,26;chain:B&labelres=backgroundOpacity:0.8;fontSize:14&select=all&style=cartoon:style~rectangle,color~spectrum"}>
+                        1AAP </a> </Typography>
+                </Grid>
+
                 <Grid item xs={12}>
                     <Typography variant="h4" align="center">Changes in Gene Expression</Typography>
                 </Grid>
@@ -102,7 +106,7 @@ const ScreenSleepBrainEffects = () => {
                     <Image src={picIEG} height={"100%"} width={"100%"} justifyContent={"center"} align={"center"}/>
                 </Grid>
                 <Typography style={padding} variant={"body1"}>
-                    The above image is a result of a technique called <em> <a href={"https://www.genome.gov/genetics-glossary/in-situ-hybridization"} target={"_blank"}></a> In situ hybridization </em>. 222 genes were
+                    The above image is a result of a technique called <em> <a href={"https://www.genome.gov/genetics-glossary/in-situ-hybridization"} target={"_blank"}>In situ hybridization</a>  </em>. 222 genes were
                     selected from the microarray data and fixed to a glass slide. They were then exposed to a small piece of
                     single stranded DNA marked with a fluorescent dye. The fluorescent DNA binds to its target, and this
                     can be seen under a microscope. In the above case, we wanted to mark the Arc gene to see where it
