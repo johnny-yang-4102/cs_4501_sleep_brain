@@ -26,7 +26,7 @@ const ScreenIntro = () => {
                     <Grid item>
                         <Typography variant="body1">This site is a general overview covering information on the
                             brain and sleep individually as well as the connections between sleep and the
-                            brain. Sleep is fundamental to our health. The consequences of it's absence has been well documented,
+                            brain. Sleep is fundamental to our health. The consequences of it's absence have been well documented,
                             including a compromised:
                             <ol>
                                 <li>immune system</li>

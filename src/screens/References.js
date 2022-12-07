@@ -62,21 +62,21 @@ const References = () => {
 
 
                 <ListItem><Link className={"listLink"}
-                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
-                                color={"black"} target={"_blank"}>How Sleep Deprivation Affects Our Genes
-                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                                href="https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/04.html" underline="hover"
+                                color={"black"} target={"_blank"}> Training Nurses on Shift Work
+                </Link><span className={"listDesc"}> - the consequences of not getting enough sleep </span></ListItem>
 
 
                 <ListItem><Link className={"listLink"}
-                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
-                                color={"black"} target={"_blank"}>How Sleep Deprivation Affects Our Genes
-                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                                href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2981377/" underline="hover"
+                                color={"black"} target={"_blank"}>Molecular and Anatomical Signatures of Sleep Deprivation in the Mouse Brain
+                </Link><span className={"listDesc"}> - finds changes in gene expression with sleep deprivation </span></ListItem>
 
 
                 <ListItem><Link className={"listLink"}
-                                href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
-                                color={"black"} target={"_blank"}>How Sleep Deprivation Affects Our Genes
-                </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+                                href="https://www.science.org/content/article/sleep-ultimate-brainwasher" underline="hover"
+                                color={"black"} target={"_blank"}>Sleep: The Ultimate Brainwasher?
+                </Link><span className={"listDesc"}> - shows the role of sleep in clearing out proteins</span></ListItem>
         </List>
 
         <Typography variant="h5" align="center">Brain Research</Typography>

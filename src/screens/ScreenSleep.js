@@ -119,8 +119,7 @@ const ScreenSleep = () => {
                         is cleared from the brain. Caffeine
                         works as a stimulant by blocking adenosine receptors. There is a handful of people that have a
                         mutant adenosine receptor and can drink coffee before bed.
-                        Light
-                        inhibits melatonin powerfully. Cells know it is night time when melatonin is released.
+                        Light inhibits melatonin powerfully. Cells know it is night time when melatonin is released.
                     </Typography>
                 </Grid>
                 <Typography variant="h5">  &nbsp;  </Typography>

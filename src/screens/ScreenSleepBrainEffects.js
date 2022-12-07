@@ -14,7 +14,6 @@ const ScreenSleepBrainEffects = () => {
     const padding = {
         padding: 10
     }
-    const [isShown, setIsShown] = useState(false);
 
     return (
         <Stack spacing={4} direction={"column"} justifyContent={"center"} alignItems={"center"} marginLeft={30}
