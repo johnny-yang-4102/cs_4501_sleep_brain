@@ -17,6 +17,8 @@ const References = () => {
         <Stack spacing={4} direction={"column"} justifyContent={"center"} alignItems={"stretch"} marginLeft={30}
             marginRight={30}>
             <Typography variant="h4" align="center">References</Typography>
+
+            <Typography variant="h5" align="center">Sleep Research</Typography>
             <List>
                 <ListItem><Link className={"listLink"}
                     href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
@@ -66,7 +68,10 @@ const References = () => {
                     href="https://neurosciencenews.com/sleep-deprivation-genetics-10638/" underline="hover"
                     color={"black"}>How Sleep Deprivation Affects Our Genes
                 </Link><span className={"listDesc"}> - lower baseline DNA repair gene expression and more DNA breaks with one night of sleep deprivation in humans </span></ListItem>
+        </List>
 
+        <Typography variant="h5" align="center">Brain Research</Typography>
+        <List>
 
 
 
@@ -106,6 +111,31 @@ const References = () => {
                 </Link><span className={"listDesc"}> - Different nervous systems and brain structures  </span></ListItem>
 
 
+
+
+                <ListItem><Link className={"listLink"}
+                    href="https://ecampusontario.pressbooks.pub/animalphysiology/chapter/8-2/" underline="hover"
+                    color={"black"}>
+                    Picture reference 
+                </Link><span className={"listDesc"}> - Brain section (nervous system diagram) </span></ListItem>
+
+                <ListItem><Link className={"listLink"}
+                    href="https://www.verywellhealth.com/what-are-glial-cells-and-what-do-they-do-4159734" underline="hover"
+                    color={"black"}>
+                    Picture reference 
+                </Link><span className={"listDesc"}> - Brain section (Glial Cells) </span></ListItem>
+
+                <ListItem><Link className={"listLink"}
+                    href="http://zoefact.com/assign/science/biology/nervous-tissue.html" underline="hover"
+                    color={"black"}>
+                    Picture reference 
+                </Link><span className={"listDesc"}> - Brain section (neuron structure)  </span></ListItem>
+
+                <ListItem><Link className={"listLink"}
+                    href="https://www.quantamagazine.org/how-humans-evolved-supersize-brains-20151110/" underline="hover"
+                    color={"black"}>
+                    Picture reference 
+                </Link><span className={"listDesc"}> - Brain section (chart of animal brains)  </span></ListItem>
 
 
 
