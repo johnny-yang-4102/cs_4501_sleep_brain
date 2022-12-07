@@ -68,7 +68,7 @@ function App() {
             component="div"
             color="black"
           >
-            Connections Between Sleep And Brain
+            Sleep And The Brain
           </Typography >
 
           <div>
