@@ -115,7 +115,8 @@ const ScreenSleep = () => {
                         Adenosine, a neurotransmitter, and Melatonin, a hormone, signal to the brain that we need sleep.
                         Adenosine is a byproduct of the break down and usage of <a
                         href={"https://en.wikipedia.org/wiki/Adenosine_triphosphate#:~:text=Adenosine%20triphosphate%20(ATP)%20is%20an,condensate%20dissolution%2C%20and%20chemical%20synthesis."}
-                        target={"_blank"}>
+                        target={"_blank"} rel="noreferrer">
+
                         ATP </a>. It builds up throughout the day, especially when we work out. When we sleep, Adenosine
                         is cleared from the brain. Caffeine
                         works as a stimulant by blocking adenosine receptors. There is a handful of people that have a
@@ -127,7 +128,7 @@ const ScreenSleep = () => {
                         light inhibits melatonin powerfully. Going outside for some sunlight in the morning is important.
                         Viewing sunlight through a window is 50x less effective. Viewing sunlight is the key way to set
                         your internal clock. Many animals have an eye dedicated to sensing time of day, it's called the
-                        <a href={"https://en.wikipedia.org/wiki/Parietal_eye"} target={"_blank"}> Parietal eye </a>. 
+                        <a href={"https://en.wikipedia.org/wiki/Parietal_eye"} target={"_blank"} rel="noreferrer"> Parietal eye </a>.
                     </Typography>
                 </Grid>
                 <Typography variant="h5">  &nbsp;  </Typography>
