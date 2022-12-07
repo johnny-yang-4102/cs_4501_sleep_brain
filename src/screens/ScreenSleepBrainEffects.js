@@ -103,7 +103,13 @@ const ScreenSleepBrainEffects = () => {
                     </Typography>
                 </Grid>
                 <Grid container alignItems={"center"}>
+                    <Grid item xs={12}>
                     <Image src={picIEG} height={"100%"} width={"100%"} justifyContent={"center"} align={"center"}/>
+                    </Grid>
+                        <Grid item xs={12}>
+                            <Typography variant="body1" align="center"> <a href={"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2981377/"} target={"_blank"}> Image Source</a> </Typography>
+
+                        </Grid>
                 </Grid>
                 <Typography style={padding} variant={"body1"}>
                     The above image is a result of a technique called <em> <a href={"https://www.genome.gov/genetics-glossary/in-situ-hybridization"} target={"_blank"}>In situ hybridization</a>  </em>. 222 genes were
