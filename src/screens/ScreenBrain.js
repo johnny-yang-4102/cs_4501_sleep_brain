@@ -1,5 +1,9 @@
 import { Stack } from "@mui/system";
-import { Grid, Typography, ImageList, ImageListItem } from "@mui/material";
+import { Grid, Typography, ImageList, ImageListItem, Accordion } from "@mui/material";
+
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import Image from "mui-image";
 
@@ -133,6 +137,24 @@ const ScreenBrain = () => {
                 <Grid item xs={6}>
                     <Typography variant="h5" style={padding}></Typography>
                 </Grid>
+
+                <Grid item xs={12}>
+                    <Accordion>
+                        <AccordionSummary
+                            expandIcon={<ExpandMoreIcon/>}
+                            aria-controls="panel1a-content"
+                            id="panel1a-header"
+                        >
+                            <Typography>Fun Fact</Typography>
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            <Typography variant="body1">The pineal gland is the only structure in the brain that is only one, instead of two symmetrical parts. </Typography>
+                        </AccordionDetails>
+                    </Accordion>
+                </Grid>
+                
+
+                
 
 
 

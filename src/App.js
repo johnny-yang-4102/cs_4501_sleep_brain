@@ -52,26 +52,10 @@ return (
       height: "100%",
       position: "relative",
   
-  }}
-  >
-
-    {/* <Typography
-            variant="h3"
-
-            component="div"
-            color="black"
-
-            style={{
-
-              backgroundColor: 'wheat'
-
-
-            }}
-          >
-            Connections Between Sleep And Brain
-          </Typography > */}
+  }}>
 
     <Router>
+      
 
       <div
         style={navbar}
