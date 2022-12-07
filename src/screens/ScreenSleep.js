@@ -108,7 +108,7 @@ const ScreenSleep = () => {
                         When we wake up in the morning, 2 hormones are released by the adrenal glands, Cortisol and
                         Epinephrine. Cortisol makes you
                         alert and ready for the day. It also sets off a 10-12 hour timer for when melatonin will be
-                        secreted. Melatonin is secreted from the pineal gland.
+                        secreted.
 
                         {/*it is the only structure in the brain*/}
                         {/*that is only one, instead of two symetrical parts.*/}
@@ -118,7 +118,7 @@ const ScreenSleep = () => {
                         ATP </a>. It builds up throughout the day, especially when we work out. When we sleep, Adenosine
                         is cleared from the brain. Caffeine
                         works as a stimulant by blocking adenosine receptors. There is a handful of people that have a
-                        mutant adenosine receptor and can drink coffee before bed.
+                        mutant adenosine receptor and can drink coffee before bed. Melatonin is secreted from the pineal gland.
                         Light inhibits melatonin powerfully. Cells know it is night time when melatonin is released.
                     </Typography>
                 </Grid>

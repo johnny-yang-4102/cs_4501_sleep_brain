@@ -4,11 +4,10 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import {Typography, Grid, Popover} from "@mui/material";
+import {Typography, Grid} from "@mui/material";
 import React, {useState} from "react";
 import Image from "mui-image";
 import picIEG from '../images/IEGmapping.jpeg'
-import {blue} from "@mui/material/colors";
 
 const ScreenSleepBrainEffects = () => {
     const padding = {
@@ -70,9 +69,13 @@ const ScreenSleepBrainEffects = () => {
                 </Grid>
                 <Grid item xs={12}>
                                         <Typography style={padding} variant="body1">
-
+                    Their research confirmed their hypothesis. While mixed up with proteins, Amyloid beta is actual a peptide.
+                                            Peptides make up polypeptides, and a protein can be made up one or more
+                                            polypeptides. Here is a link visualizing Amyloid Precursor Protein, a protein
+                                            found in the membranes of nerve cells. Amyloid beta like to clump up in the
+                                            brain, and is considered a potential cause of Alzheimer's.
                     <a href={"https://3dmol.csb.pitt.edu/viewer.html?pdb=1AAP&select=chain:A&style=line&select=chain:B&style=line&select=resi:19,23,26;chain:B&style=cartoon;stick&select=resi:19,23,26;chain:B&labelres=backgroundOpacity:0.8;fontSize:14&select=all&style=cartoon:style~rectangle,color~spectrum"}>
-                        1AAP </a> </Typography>
+                        1AAP </a>  </Typography>
                 </Grid>
 
                 <Grid item xs={12}>
