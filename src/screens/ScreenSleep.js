@@ -108,18 +108,26 @@ const ScreenSleep = () => {
                         When we wake up in the morning, 2 hormones are released by the adrenal glands, Cortisol and
                         Epinephrine. Cortisol makes you
                         alert and ready for the day. It also sets off a 10-12 hour timer for when melatonin will be
-                        secreted.
+                        secreted. &nbsp;
 
                         {/*it is the only structure in the brain*/}
                         {/*that is only one, instead of two symetrical parts.*/}
                         Adenosine, a neurotransmitter, and Melatonin, a hormone, signal to the brain that we need sleep.
                         Adenosine is a byproduct of the break down and usage of <a
-                        href={"https://en.wikipedia.org/wiki/Adenosine_triphosphate#:~:text=Adenosine%20triphosphate%20(ATP)%20is%20an,condensate%20dissolution%2C%20and%20chemical%20synthesis."}>
+                        href={"https://en.wikipedia.org/wiki/Adenosine_triphosphate#:~:text=Adenosine%20triphosphate%20(ATP)%20is%20an,condensate%20dissolution%2C%20and%20chemical%20synthesis."}
+                        target={"_blank"}>
                         ATP </a>. It builds up throughout the day, especially when we work out. When we sleep, Adenosine
                         is cleared from the brain. Caffeine
                         works as a stimulant by blocking adenosine receptors. There is a handful of people that have a
-                        mutant adenosine receptor and can drink coffee before bed. Melatonin is secreted from the pineal gland.
-                        Light inhibits melatonin powerfully. Cells know it is night time when melatonin is released.
+                        mutant adenosine receptor and can drink coffee before bed. Melatonin is secreted from the pineal
+                        gland. The role of light is so important here. The retina are the two pieces of your brain that reside outside of the skull. They
+                        perceive a specific type of light when you wake up and send that information to your superkaismatic
+                        nucleus, the part of your brain that regulates Circadian Rhythm. It's located above the roof of
+                        your mouth and commincated with every cell in the body. Cells know it is night time when melatonin is released and
+                        light inhibits melatonin powerfully. Going outside for some sunlight in the morning is important.
+                        Viewing sunlight through a window is 50x less effective. Viewing sunlight is the key way to set
+                        your internal clock. Many animals have an eye dedicated to sensing time of day, it's called the
+                        <a href={"https://en.wikipedia.org/wiki/Parietal_eye"} target={"_blank"}> Parietal eye </a>. 
                     </Typography>
                 </Grid>
                 <Typography variant="h5">  &nbsp;  </Typography>

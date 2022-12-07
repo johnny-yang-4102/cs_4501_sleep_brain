@@ -103,15 +103,15 @@ const ScreenBrain = () => {
 
                     <Typography variant="h5" style={padding}>Hypothalamus</Typography>
 
-                    <Typography variant="body1" style={padding}>The structure underneath the thalamus. It regulates homeostasis and ensures key functions such as caloric intake, energy expenditure, and body temperature, and sleep are kept at in appropriate levels</Typography>
+                    <Typography variant="body1" style={padding}>The structure underneath the thalamus. It regulates homeostasis and ensures key functions such as caloric intake, energy expenditure, and body temperature, and sleep are kept at an appropriate level</Typography>
 
                     <Typography variant="h5" style={padding}>Cerebellum </Typography>
 
-                    <Typography variant="body1" style={padding} >Latin for “little brain”. The cerebellum controls balance ,coordination, and learning new motor skills</Typography>
+                    <Typography variant="body1" style={padding} >Latin for “little brain”. The cerebellum controls balance, coordination, and learning new motor skills</Typography>
 
                     <Typography variant="h5" style={padding}>Brain Stem </Typography>
 
-                    <Typography variant="body1" style={padding}>Helps to realty signals between brain and spinal cord. Coordinates the motor control signals sent from the brain to the body. Also controls several important functions related to homeostasis such as breathing, arousal, and digestion.</Typography>
+                    <Typography variant="body1" style={padding}>Helps to relay signals between brain and spinal cord. Coordinates the motor control signals sent from the brain to the body. Also controls several important functions related to homeostasis such as breathing, arousal, and digestion.</Typography>
 
                     <Typography variant="h5" style={padding}>Deep Visualization </Typography>
 
@@ -173,7 +173,7 @@ const ScreenBrain = () => {
 
                     <Typography variant="body1" style={padding}>Generally brain structures that represent a greater percentage of volume also have higher relative importance to an animal's use. For instance, the olfactory bulb, a mass of tissue in the brain involved in the sense of smell, in a mouse versus a human brain is 2% to 0.01% of the brain by volume.</Typography>
 
-                    <Typography variant="body1" style={padding}>A larger brain or brain structures however does not indicate "more intelligence". Although the elephant cerebral cortex weighs twice as much as the human cortex, it only has one-third the amount of neurons humans have in their cerebral cortex the olfactory bulb, a mass of tissue in the brain involved in the sense of smell, in a mouse versus a human brain is 2% to 0.01% of the brain by volume.</Typography>
+                    <Typography variant="body1" style={padding}>A larger brain or brain structures however does not indicate "more intelligence". Although the elephant cerebral cortex weighs twice as much as the human cortex, it only has one-third the amount of neurons humans have in their cerebral cortex. The olfactory bulb, a mass of tissue in the brain involved in the sense of smell, in a mouse versus a human brain is 2% to 0.01% of the brain by volume.</Typography>
                 </Grid>
 
                 <Grid container direction="row" justifyContent="center">

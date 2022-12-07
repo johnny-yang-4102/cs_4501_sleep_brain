@@ -70,12 +70,12 @@ const ScreenSleepBrainEffects = () => {
                 <Grid item xs={12}>
                                         <Typography style={padding} variant="body1">
                     Their research confirmed their hypothesis. While mixed up with proteins, Amyloid beta is actual a peptide.
-                                            Peptides make up polypeptides, and a protein can be made up one or more
+                                            Peptides make up polypeptides, and a protein is made of one or more
                                             polypeptides. Here is a link visualizing Amyloid Precursor Protein, a protein
-                                            found in the membranes of nerve cells. Amyloid beta like to clump up in the
-                                            brain, and is considered a potential cause of Alzheimer's.
-                    <a href={"https://3dmol.csb.pitt.edu/viewer.html?pdb=1AAP&select=chain:A&style=line&select=chain:B&style=line&select=resi:19,23,26;chain:B&style=cartoon;stick&select=resi:19,23,26;chain:B&labelres=backgroundOpacity:0.8;fontSize:14&select=all&style=cartoon:style~rectangle,color~spectrum"}>
-                        1AAP </a>  </Typography>
+                                            found in the membranes of nerve cells: <a href={"https://3dmol.csb.pitt.edu/viewer.html?pdb=1AAP&select=chain:A&style=line&select=chain:B&style=line&select=resi:19,23,26;chain:B&style=cartoon;stick&select=resi:19,23,26;chain:B&labelres=backgroundOpacity:0.8;fontSize:14&select=all&style=cartoon:style~rectangle,color~spectrum"}>
+                          1AAP   </a>  </Typography>. Amyloid beta likes to clump up in the
+                                            brain, and is considered a potential cause of Alzheimer's. &nbsp;
+
                 </Grid>
 
                 <Grid item xs={12}>
@@ -136,7 +136,8 @@ const ScreenSleepBrainEffects = () => {
 
                 </Typography>
                 <Typography style={padding} variant={"body1"}>
-                    In that same vein, we wanted to quantify differences in the brain DNA of mice …
+                    In that same vein, we wanted to quantify differences in the brain DNA of mice, as seen in the research
+                    results tab.
                 </Typography>
             </Grid>
 
